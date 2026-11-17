@@ -1,0 +1,73 @@
+body {
+  background: #f4f6fb;
+}
+
+.sw-navbar {
+  background: linear-gradient(90deg, #1e1b4b, #312e81);
+}
+
+.sw-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+}
+
+.sw-navbar .nav-link:hover {
+  color: #fff;
+}
+
+.sw-navbar .nav-link.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.card {
+  border: 0;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+  border-radius: 12px;
+}
+
+.stat-card .value {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.cat-dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 1.05rem;
+  flex-shrink: 0;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.auth-wrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e1b4b, #4338ca);
+}
+
+.emoji-btn {
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0.3rem 0.45rem;
+}
+
+.progress {
+  height: 12px;
+}
+
+.chart-box {
+  width: 100%;
+  height: 300px;
+}
